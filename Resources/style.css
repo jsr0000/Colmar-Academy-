@@ -1,0 +1,19 @@
+header {
+    position: fixed;
+    height: 64px;
+    
+    
+}
+
+header .name {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+}
+
+header .nav {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    
+}
