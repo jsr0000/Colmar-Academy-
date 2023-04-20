@@ -1,19 +1,52 @@
-header {
-    position: fixed;
-    height: 64px;
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+    padding: 28px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     
 }
 
-header .name {
-    position: absolute;
-    left: 0;
-    display: inline-block;
+.logo img {
+    padding-right: 5px;
+}
+.logo h1 {
+    padding-bottom: 6px;
 }
 
-header .nav {
-    position: absolute;
-    right: 0;
+.navbar ul li {
     display: inline-block;
+    align-items: right;
+    font-size: 18px;
+    list-style: none;
+    padding: 10px;
+    font-weight: 50;
     
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.light-text {
+    color: rgb(148, 148, 148);
 }
