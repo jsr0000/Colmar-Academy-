@@ -72,8 +72,9 @@
     display: flex;
     background-color: rgb(221, 221, 221);
     align-items: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-right: 100px;
+    width: 100%;
 }
 
 .learn img {
@@ -91,15 +92,16 @@
 
 .learn-txt h2 {
     font-size: 3em;
-    color: rgba(0, 0, 0, 0.65);
+    color: rgba(0, 0, 0, 0.7);
     font-weight: 900;
+    letter-spacing: 0.5px;
 }
 
 .learn-txt h3 {
     font-size: 1.5em;
     padding-top: 30px;
     padding-bottom: 40px;
-    color: rgba(0, 0, 0, 0.65);
+    color: rgba(0, 0, 0, 0.7);
     font-weight: 425;
 }
 
@@ -110,7 +112,7 @@
     border-radius: 0;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
-    font-family: 'Open Sans', sans serif;
+    font-family: 'Roboto', sans-serif;
     border: 0;
     font-weight: 300;
     transition: background-color 0.15s ease-in-out;
@@ -120,4 +122,163 @@
 .start-here:hover {
     background-color: rgba(0, 0, 0, 0.4);
     cursor: pointer;
+}
+
+.practice {
+    display: flex;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.p-info {
+    width: 60%;
+    border-right: 2px solid rgb(221, 221, 221);
+}
+
+.practice img {
+    width: 100%;
+    padding: 32px 24px;
+    height: auto;
+}
+
+.practice h2 {
+    padding-left: 24px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 1000;
+    padding-bottom: 24px;
+}
+
+.p-info p {
+    padding-left: 24px;
+    font-weight: 275;
+    letter-spacing: 0.35px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+}
+
+.practice span {
+    padding-left: 24px;
+    font-weight: 300;
+    padding-bottom: 32px;
+}
+
+.pages {
+    width: 40%;
+}
+.ori {
+    border-bottom: 2px solid rgb(221, 221, 221);
+    display: flex;
+    
+}
+
+.ori img {
+    width: 35%;
+}
+
+.orientation-txt {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+.orientation-txt p {
+    padding: 15px 0;
+    font-weight: 200;  
+}
+
+.orientation-txt h3 {
+    font-weight: 500;
+    letter-spacing: 0.7px;
+}
+
+.orientation-txt a {
+    text-decoration: none;
+    color: rgba(20, 140, 215, 0.857);
+    font-weight: 300;
+    transition: color 0.2s ease-in-out;
+}
+
+.orientation-txt a:hover {
+    color: rgb(30, 30, 253);
+    font-weight: 350;
+}
+
+.campus {
+    border-bottom: 2px solid rgb(221, 221, 221);
+    display: flex;
+    
+}
+
+.campus img {
+    width: 35%;
+}
+
+.cam {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+.cam p {
+    padding: 15px 0;
+    font-weight: 200;  
+}
+
+.cam h3 {
+    font-weight: 500;
+    letter-spacing: 0.7px;
+}
+
+.cam a {
+    text-decoration: none;
+    color: rgba(20, 140, 215, 0.857);
+    font-weight: 300;
+    transition: color 0.2s ease-in-out;
+}
+
+.cam a:hover {
+    color: rgb(30, 30, 253);
+    font-weight: 350;
+}
+
+.guest {
+    border-bottom: 2px solid rgb(221, 221, 221);
+    display: flex;
+    
+}
+
+.guest img {
+    width: 35%;
+}
+
+.gue {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+.gue p {
+    padding: 15px 0;
+    font-weight: 200;  
+}
+
+.gue h3 {
+    font-weight: 500;
+    letter-spacing: 0.7px;
+}
+
+.gue a {
+    text-decoration: none;
+    color: rgba(20, 140, 215, 0.857);
+    font-weight: 300;
+    transition: color 0.2s ease-in-out;
+}
+
+.gue a:hover {
+    color: rgb(30, 30, 253);
+    font-weight: 350;
 }
