@@ -128,11 +128,14 @@
     display: flex;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+    height: fit-content;
+    
 }
 
 .p-info {
     width: 60%;
     border-right: 2px solid rgb(221, 221, 221);
+    padding-bottom: 32px;
 }
 
 .practice img {
@@ -145,7 +148,6 @@
     padding-left: 24px;
     letter-spacing: 0.5px;
     color: rgba(0, 0, 0, 0.7);
-    font-weight: 1000;
     padding-bottom: 24px;
 }
 
@@ -157,10 +159,10 @@
     padding-right: 24px;
 }
 
-.practice span {
+.p-info span {
     padding-left: 24px;
     font-weight: 300;
-    padding-bottom: 32px;
+    
 }
 
 .pages {
@@ -247,7 +249,7 @@
 .guest {
     border-bottom: 2px solid rgb(221, 221, 221);
     display: flex;
-    
+    background-color: rgb(221, 221, 221);
 }
 
 .guest img {
@@ -281,4 +283,64 @@
 .gue a:hover {
     color: rgb(30, 30, 253);
     font-weight: 350;
+}
+
+.start-learn {
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 74px;
+    overflow: hidden;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.start-learn h2{
+    
+    letter-spacing: 0.5px;
+    padding: 32px 0;
+
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.box img {
+   height: auto;
+   width: 100%;
+   
+}
+
+.box {
+    flex-basis: calc(33.3% -20px);
+    margin: 16px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 25%;
+    background-color: white;
+}
+
+.box h3 {
+    padding: 16px;
+    font-weight: 500;
+}
+
+.box span {
+    padding: 8px 16px;
+    font-weight: 300;
+}
+
+.box p {
+    padding: 0 0 24px 16px;
+    font-weight: 300;
 }
