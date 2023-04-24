@@ -29,7 +29,7 @@
     padding-right: 5px;
 }
 .logo h1 {
-    padding-bottom: 6px;
+    padding-bottom: 5px;
 }
 
 .navbar ul li {
@@ -122,6 +122,7 @@
 .start-here:hover {
     background-color: rgba(0, 0, 0, 0.4);
     cursor: pointer;
+    font-weight: 400;
 }
 
 .practice {
@@ -302,7 +303,8 @@
 .start-learn h2{
     
     letter-spacing: 0.5px;
-    padding: 32px 0;
+    padding: 32px 0 16px 0;
+    font-size: xx-large;
 
 }
 
@@ -311,6 +313,7 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: stretch;
+    margin-bottom: 32px;
 }
 
 .box img {
@@ -322,7 +325,6 @@
 .box {
     flex-basis: calc(33.3% -20px);
     margin: 16px;
-    
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -343,4 +345,114 @@
 .box p {
     padding: 0 0 24px 16px;
     font-weight: 300;
+}
+
+.thesis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    border-bottom: 2px solid rgb(221, 221, 221);
+}
+
+.thesis h2 {
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+
+.contain {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.vid {
+    width: 60%;
+    padding: 24px;
+}
+
+.vid video {
+    width: 100%;
+}
+
+.vid h3 {
+    padding-top: 24px;
+}
+
+.vid p {
+    padding-top: 8px;
+}
+
+.thesis-banners {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 24px 24px 0 0;
+}
+
+.fisma {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    background-color: rgb(221, 221, 221);
+    align-items: center;
+}
+
+.fisma img {
+    width: 35%;
+}
+
+.fisma h3,
+.fisma p {
+    padding-left: 16px;
+    padding-top: 8px;
+}
+
+.now {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    align-items: center;
+}
+
+.now img {
+    width: 35%;
+}
+
+.now h3,
+.now p {
+    padding-left: 16px;
+    padding-top: 8px;
+}
+
+.fisma h3,
+.now h3 {
+    font-weight: 500;
+}
+
+.fisma p,
+.now p {
+    font-weight: 300;
+}
+
+footer {
+    padding: 16px 24px 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: small;
+
+}
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left {
+    margin-right: auto;
+}
+
+.right {
+    margin-left: auto;
 }
