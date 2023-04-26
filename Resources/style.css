@@ -12,6 +12,7 @@
     height: 68px;
     padding: 24px;
     font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
 }
 
 .logo {
@@ -445,4 +446,23 @@ footer {
 
 .right {
     margin-left: auto;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+@media only screen and (max-width: 640px) {
+    nav > .logo, nav > .menu {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        grid-gap: 70%;
+
+
+    }
 }
